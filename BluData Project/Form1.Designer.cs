@@ -30,7 +30,6 @@ namespace BluData_Project
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lblOperacao = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,25 +48,15 @@ namespace BluData_Project
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.txtResultado = new System.Windows.Forms.TextBox();
+            this.lblOperacao = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblOperacao
-            // 
-            this.lblOperacao.AutoSize = true;
-            this.lblOperacao.BackColor = System.Drawing.Color.Transparent;
-            this.lblOperacao.ForeColor = System.Drawing.Color.White;
-            this.lblOperacao.Location = new System.Drawing.Point(13, 81);
-            this.lblOperacao.Name = "lblOperacao";
-            this.lblOperacao.Size = new System.Drawing.Size(0, 12);
-            this.lblOperacao.TabIndex = 2;
-            this.lblOperacao.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(100, 117);
+            this.button1.Location = new System.Drawing.Point(98, 117);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 45);
             this.button1.TabIndex = 3;
@@ -77,7 +66,7 @@ namespace BluData_Project
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(14, 117);
+            this.button2.Location = new System.Drawing.Point(16, 117);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(80, 45);
             this.button2.TabIndex = 4;
@@ -87,7 +76,7 @@ namespace BluData_Project
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(185, 117);
+            this.button3.Location = new System.Drawing.Point(181, 117);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(80, 45);
             this.button3.TabIndex = 5;
@@ -97,7 +86,7 @@ namespace BluData_Project
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(271, 272);
+            this.button4.Location = new System.Drawing.Point(263, 267);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(80, 45);
             this.button4.TabIndex = 6;
@@ -107,7 +96,7 @@ namespace BluData_Project
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(13, 168);
+            this.button6.Location = new System.Drawing.Point(15, 168);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(80, 45);
             this.button6.TabIndex = 8;
@@ -117,7 +106,7 @@ namespace BluData_Project
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(99, 168);
+            this.button7.Location = new System.Drawing.Point(97, 168);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(80, 45);
             this.button7.TabIndex = 9;
@@ -127,7 +116,7 @@ namespace BluData_Project
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(185, 168);
+            this.button8.Location = new System.Drawing.Point(181, 168);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(80, 45);
             this.button8.TabIndex = 10;
@@ -137,7 +126,7 @@ namespace BluData_Project
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(271, 168);
+            this.button9.Location = new System.Drawing.Point(263, 168);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(80, 45);
             this.button9.TabIndex = 11;
@@ -147,7 +136,7 @@ namespace BluData_Project
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(271, 219);
+            this.button10.Location = new System.Drawing.Point(263, 219);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(80, 45);
             this.button10.TabIndex = 16;
@@ -158,7 +147,7 @@ namespace BluData_Project
             // button11
             // 
             this.button11.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button11.Location = new System.Drawing.Point(271, 117);
+            this.button11.Location = new System.Drawing.Point(263, 117);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(80, 45);
             this.button11.TabIndex = 15;
@@ -168,7 +157,7 @@ namespace BluData_Project
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(185, 219);
+            this.button12.Location = new System.Drawing.Point(181, 219);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(80, 45);
             this.button12.TabIndex = 14;
@@ -178,7 +167,7 @@ namespace BluData_Project
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(99, 219);
+            this.button13.Location = new System.Drawing.Point(97, 219);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(80, 45);
             this.button13.TabIndex = 13;
@@ -188,7 +177,7 @@ namespace BluData_Project
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(12, 219);
+            this.button14.Location = new System.Drawing.Point(14, 219);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(80, 45);
             this.button14.TabIndex = 12;
@@ -198,11 +187,12 @@ namespace BluData_Project
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button15.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button15.Location = new System.Drawing.Point(357, 119);
+            this.button15.BackColor = System.Drawing.Color.Black;
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(346, 117);
+            this.button15.Margin = new System.Windows.Forms.Padding(0);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(80, 45);
+            this.button15.Size = new System.Drawing.Size(80, 47);
             this.button15.TabIndex = 20;
             this.button15.Text = "CE";
             this.button15.UseVisualStyleBackColor = false;
@@ -210,7 +200,7 @@ namespace BluData_Project
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(14, 272);
+            this.button16.Location = new System.Drawing.Point(14, 267);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(165, 45);
             this.button16.TabIndex = 19;
@@ -222,7 +212,7 @@ namespace BluData_Project
             // 
             this.button17.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button17.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button17.Location = new System.Drawing.Point(357, 170);
+            this.button17.Location = new System.Drawing.Point(346, 170);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(80, 45);
             this.button17.TabIndex = 18;
@@ -232,11 +222,11 @@ namespace BluData_Project
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.Gray;
+            this.button18.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(357, 221);
+            this.button18.Location = new System.Drawing.Point(346, 221);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(80, 96);
+            this.button18.Size = new System.Drawing.Size(80, 91);
             this.button18.TabIndex = 17;
             this.button18.Text = "=";
             this.button18.UseVisualStyleBackColor = false;
@@ -244,7 +234,7 @@ namespace BluData_Project
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(185, 272);
+            this.button5.Location = new System.Drawing.Point(181, 267);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(80, 45);
             this.button5.TabIndex = 21;
@@ -252,30 +242,43 @@ namespace BluData_Project
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // txtResultado
+            // 
+            this.txtResultado.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtResultado.Location = new System.Drawing.Point(0, 0);
+            this.txtResultado.Multiline = true;
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(412, 91);
+            this.txtResultado.TabIndex = 0;
+            this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lblOperacao
+            // 
+            this.lblOperacao.AutoSize = true;
+            this.lblOperacao.BackColor = System.Drawing.Color.Transparent;
+            this.lblOperacao.ForeColor = System.Drawing.Color.White;
+            this.lblOperacao.Location = new System.Drawing.Point(3, 38);
+            this.lblOperacao.Name = "lblOperacao";
+            this.lblOperacao.Size = new System.Drawing.Size(0, 12);
+            this.lblOperacao.TabIndex = 2;
+            this.lblOperacao.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkOrchid;
             this.panel1.Controls.Add(this.txtResultado);
+            this.panel1.Controls.Add(this.lblOperacao);
             this.panel1.Location = new System.Drawing.Point(14, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(423, 91);
+            this.panel1.Size = new System.Drawing.Size(410, 91);
             this.panel1.TabIndex = 22;
-            // 
-            // txtResultado
-            // 
-            this.txtResultado.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtResultado.Location = new System.Drawing.Point(0, 29);
-            this.txtResultado.Multiline = true;
-            this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(423, 62);
-            this.txtResultado.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(452, 335);
+            this.ClientSize = new System.Drawing.Size(444, 328);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button15);
@@ -295,7 +298,6 @@ namespace BluData_Project
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lblOperacao);
             this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
             this.ForeColor = System.Drawing.Color.DarkViolet;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -306,12 +308,10 @@ namespace BluData_Project
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblOperacao;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -330,8 +330,9 @@ namespace BluData_Project
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Label lblOperacao;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
